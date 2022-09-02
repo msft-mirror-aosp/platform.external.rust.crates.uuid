@@ -2,7 +2,13 @@
 {
   "presubmit": [
     {
+      "name": "ZipFuseTest"
+    },
+    {
       "name": "apkdmverity.test"
+    },
+    {
+      "name": "authfs_device_test_src_lib"
     },
     {
       "name": "microdroid_manager_test"
@@ -13,7 +19,13 @@
   ],
   "presubmit-rust": [
     {
+      "name": "ZipFuseTest"
+    },
+    {
       "name": "apkdmverity.test"
+    },
+    {
+      "name": "authfs_device_test_src_lib"
     },
     {
       "name": "microdroid_manager_test"
