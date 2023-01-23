@@ -11,10 +11,19 @@
       "name": "authfs_device_test_src_lib"
     },
     {
+      "name": "encryptedstore.test"
+    },
+    {
+      "name": "libdm_rust.test"
+    },
+    {
+      "name": "libpvmfw_avb.integration_test"
+    },
+    {
       "name": "microdroid_manager_test"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "virtualizationmanager_device_test"
     }
   ],
   "presubmit-rust": [
@@ -28,10 +37,19 @@
       "name": "authfs_device_test_src_lib"
     },
     {
+      "name": "encryptedstore.test"
+    },
+    {
+      "name": "libdm_rust.test"
+    },
+    {
+      "name": "libpvmfw_avb.integration_test"
+    },
+    {
       "name": "microdroid_manager_test"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "virtualizationmanager_device_test"
     }
   ]
 }
