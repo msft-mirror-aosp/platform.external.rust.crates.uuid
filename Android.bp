@@ -61,6 +61,8 @@ rust_library {
         "//apex_available:platform",
         "com.android.virt",
     ],
+    product_available: true,
+    vendor_available: true,
 }
 
 rust_library_rlib {
@@ -70,6 +72,9 @@ rust_library_rlib {
     cargo_pkg_version: "0.8.2",
     srcs: ["src/lib.rs"],
     edition: "2018",
+    features: [
+        "macro-diagnostics",
+    ],
     prefer_rlib: true,
     no_stdlibs: true,
     stdlibs: [
