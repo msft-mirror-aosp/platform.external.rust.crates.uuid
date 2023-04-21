@@ -5,9 +5,6 @@ rust_library_rlib {
     cargo_pkg_version: "0.8.2",
     srcs: ["src/lib.rs"],
     edition: "2018",
-    features: [
-        "macro-diagnostics",
-    ],
     prefer_rlib: true,
     no_stdlibs: true,
     stdlibs: [
