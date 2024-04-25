@@ -1,7 +1,13 @@
 {
   "run_cargo": false,
+  "package": {
+    "uuid": {
+      "dep_blocklist": ["libtrybuild"]
+    }
+  },
   "variants": [
     {
+      "tests": true,
       "features": [
         "serde",
         "std",
